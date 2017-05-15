@@ -1,0 +1,31 @@
+{
+  "name": "ppaweb",
+  "version": "1.0.0",
+  "description": "Platform to handle PPA and school internal system",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies" : {
+    "express"    : "~4.7.2",
+    "mongoose"   : "~3.6.2",
+    "morgan"     : "~1.2.2",
+    "body-parser": "~1.5.2",
+    "method-override": "~2.1.2"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nmursith/PPA_Web.git"
+  },
+  "keywords": [
+    "PPA"
+  ],
+  "author": "Mursith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nmursith/PPA_Web/issues"
+  },
+  "homepage": "https://github.com/nmursith/PPA_Web#readme"
+}
